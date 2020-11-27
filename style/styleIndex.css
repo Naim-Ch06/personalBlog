@@ -1,0 +1,39 @@
+/* ----------------- BARRE DE NAVIGATION ----------------- */ 
+
+nav {
+    width:  35%;
+    height: 50px;
+    margin: auto;
+    background: linear-gradient(dodgerblue, deepskyblue);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#menu {
+    display: table;
+    margin: auto;
+    padding: 0;
+}
+
+#menu li {
+    display: table-cell;    
+    text-align: center;
+    width : 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+#menu a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#menu li:hover {
+    background-color: white;
+    font-size: 20px;
+}
